@@ -1,18 +1,6 @@
 # Python CI/CD with GitHub Actions and pytest
 This repository contains a simple Python application integrated with a CI/CD pipeline using GitHub Actions. The pipeline automatically runs tests using `pytest` on every pull request to ensure code quality and correctness.
 
-## Repository Structure
-
-github-actions-pytest/
-.github/workflows/ci.yml            # GitHub Actions workflow configuration
-app/init.py           # Package marker for app directory
-   /main.py               # Main application code
-tests
-   /init.py           # Package marker for tests directory
-   /test_main.py          # Unit tests for the application
-requirements.txt          # List of dependencies
-README.md                 # Project details
-
 ## Description of Files
 .github/workflows/ci.yml: This file configures the GitHub Actions workflow. It sets up the CI/CD pipeline to run on every pull request to the main branch. The workflow includes steps to:
 
