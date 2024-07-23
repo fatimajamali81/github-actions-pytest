@@ -37,7 +37,7 @@ Ensure you have the following installed on your local machine:
 git clone https://github.com/yourusername/github-actions-pytest.git
 cd github-actions-pytest
 ```
-Install the dependencies:
+- **Install the dependencies**:
 ```sh
 pip install -r requirements.txt
 ```
@@ -61,15 +61,14 @@ This will automatically discover and run all tests in the tests directory.
 
 ## CI/CD Pipeline
 
-The CI/CD pipeline is configured using GitHub Actions in the .github/workflows/ci.yml file. The pipeline runs on every pull request to the main branch and includes the following steps:
+The CI/CD pipeline is configured using GitHub Actions in the `.github/workflows/ci.yml` file. The pipeline runs on every pull request to the main branch and includes the following steps:
 
 - **Checkout**: Retrieves the latest code from the repository.
 - **Set up Python**: Sets up the specified versions of Python.
 - **Install dependencies**: Installs the required dependencies listed in requirements.txt.
 - **Run tests**: Executes the tests using pytest.
-
-**Viewing CI/CD Results** 
-After creating a pull request, you can view the status of the CI/CD pipeline in the "Actions" tab of your GitHub repository. Detailed logs and results of the workflow runs will be available there.
+- **Viewing CI/CD Results**: After creating a pull request, you can view the status of the CI/CD pipeline in the "Actions" tab of your GitHub repository. Detailed logs and results of the workflow runs will be available there.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
+ 
