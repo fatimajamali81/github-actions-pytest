@@ -1,8 +1,10 @@
 # Python CI/CD with GitHub Actions and pytest
 This repository contains a simple Python application integrated with a CI/CD pipeline using GitHub Actions. The pipeline automatically runs tests using `pytest` on every pull request to ensure code quality and correctness.
 
+
 ## Description of Files
-.github/workflows/ci.yml: This file configures the GitHub Actions workflow. It sets up the CI/CD pipeline to run on every pull request to the main branch. The workflow includes steps to:
+
+`.github/workflows/ci.yml`: This file configures the GitHub Actions workflow. It sets up the CI/CD pipeline to run on every pull request to the main branch. The workflow includes steps to:
 
 1. Check out the repository code
 2. Set up Python (with versions 3.8, 3.9, and 3.10)
