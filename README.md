@@ -70,5 +70,5 @@ The CI/CD pipeline is configured using GitHub Actions in the `.github/workflows/
 - **Viewing CI/CD Results**: After creating a pull request, you can view the status of the CI/CD pipeline in the "Actions" tab of your GitHub repository. Detailed logs and results of the workflow runs will be available there.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
  
