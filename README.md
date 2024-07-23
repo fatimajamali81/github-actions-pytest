@@ -10,7 +10,8 @@ This repository contains a simple Python application integrated with a CI/CD pip
 2. Set up Python (with versions 3.8, 3.9, and 3.10)
 3. Install dependencies from requirements.txt
 4. Run tests using pytest
-5. app/init.py: Marks the app directory as a Python package.
+
+- `app/init.py`: Marks the app directory as a Python package.
 
 - `app/main.py`: Contains the main application code with basic arithmetic functions (add and subtract).
 
@@ -18,9 +19,9 @@ This repository contains a simple Python application integrated with a CI/CD pip
 
 - `tests/test_main.py` : Contains unit tests for the functions defined in app/main.py using pytest.
 
-- `requirements.txt' : Lists the project dependencies, including pytest for testing.
+- `requirements.txt` : Lists the project dependencies, including pytest for testing.
 
-- `README.md' : Provides an overview of the project, repository structure, and instructions for running the application and tests.
+- `README.md` : Provides an overview of the project, repository structure, and instructions for running the application and tests.
 
 ## Getting Started
 
